@@ -8,7 +8,7 @@ try:
         radius = diameter/2
         kerulet = 2*radius * math.pi
         terulet = radius**2*math.pi
-        easygui.msgbox("A {} cm átmérőjű kör kerülete {} cm, területe pedig: {} cm^2".format(diameter,kerulet,terulet))
+        easygui.msgbox("A {} cm átmérőjű kör kerülete {:.3f} cm, területe pedig: {:.3f} cm^2".format(diameter,kerulet,terulet))
 
     else:
         easygui.msgbox("Nem megfelelő az érték",title="hiba")
